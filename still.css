@@ -6,7 +6,8 @@
 header{
    
     background: linear-gradient(to right, #fdbb2d, #22c1c3); 
-   
+   display: flex;
+   align-items: center;
 }
 
 .logo{
@@ -21,15 +22,14 @@ img{
 
 }
 
-h1{
-    position: absolute;
-    top: 3.5rem;
+header h1{
+   
     margin: auto;
-   display: inline-block;
+   
     /* text-align: center; */
     font-size: 4rem;
     color: #3A1C71;
-    padding:  0 340px;
+   
     /* margin-bottom: 300px; */
    
 }
@@ -50,13 +50,22 @@ h1{
 
 
 .header1{
-    position: absolute;
-    right: 4rem;
-    top: 5rem;
+   margin-right: 20px;
 
 }
+header div {
+  
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+}
+header div a{
+    color:black;
+
+    font-size: 20px;
+}
 .header2{
-    position:absolute;
+
 
     }
 
@@ -69,7 +78,7 @@ nav{
     background: linear-gradient(to right, #EAECC6, #2BC0E4); 
     position: sticky;
     top: 0;
-    padding-top: 30px;
+    padding-top: 8px;
    
 }
 
@@ -131,6 +140,7 @@ nav a:hover{
 main .btn{
   
     background-color: #bca8e2;
+    padding:8px 20px;
     
     font-size: 20px;
     color: rgb(11, 3, 159);
@@ -163,8 +173,9 @@ main .btn{
 }
 
 .prg{
-    margin-top: 30px;
+  
     font-size: 20px;
+    margin:30px 40px;
     line-height: normal;
     color: #220441;
 
@@ -174,6 +185,7 @@ main .btn{
     font-size: 20px;
     line-height: normal;
     color: hotpink;
+    margin:30px 40px;
 }
 
 .span{
